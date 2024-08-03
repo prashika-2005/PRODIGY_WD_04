@@ -1,0 +1,154 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#home {
+    background: #3bbaba;
+    color:white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+}
+
+#home h1 span {
+    color: #b52f2f;
+}
+
+#home p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #ff4500;
+}
+#about {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 200px;
+}
+
+.about-content .text {
+    max-width: 600px;
+}
+
+/* Skills Section */
+#skills {
+    background: #fff;
+    padding: 50px 0;
+}
+
+.skill {
+    margin: 20px 0;
+}
+
+.progress-bar {
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.progress {
+    background: #ff6347;
+    height: 100%;
+    transition: width 0.3s;
+}
+
+#projects {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.projects-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#contact {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#contact-form button {
+    background: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#contact-form button:hover {
+    background: #ff4500;
+}
